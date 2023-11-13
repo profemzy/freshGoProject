@@ -16,6 +16,7 @@ RUN go mod download
 COPY . .
 
 # Building the application
+#RUN go build -o fresh-app
 RUN go build -o fresh-app
 
 # Fetching the latest nginx image
